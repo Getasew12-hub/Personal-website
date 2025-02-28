@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-wrap{
+    
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+    color: white;
+}
+.personal-website{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    padding:15px 0 5px; 
+    border-bottom: 2px solid white;
+    font-weight: bold;
+    
+    
+}
+.inside-wrapwe-logophoto{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+    background-image: url(../image/Snapchat-104756454.jpg);
+       background-size:cover;
+       
+}
+.inside-wraper{
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+}
+.inside-wraper-resume{
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight:bold;
+    
+    
+}
+.inside-wraper-resume> a> button{
+
+    background-color:#0d6efd;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+
+}
+
+.main-paragrap{
+    font-weight:bold;
+}
+
+.inside-wraper-resume> a{
+    text-decoration: none;
+    color: gold;
+    
+}
+.hero-introduction{
+    margin: 30px 7%;
+    
+    display: flex;
+    flex-direction: column;
+    gap:30px
+
+
+    
+}
+.all-introduction{
+    background-image: url(../image/istockphoto-1296994217-1024x1024.jpg);
+    height: 400px;
+    background-size: cover;
+}
+.all-main{
+    background-color:aliceblue;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+
+.intoduction-paragrap{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.main-background-itroduction{
+    color: red;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+.wrap-doingWork{
+    margin: 5px 7% 30px;
+    display: flex;
+   flex-direction:column ;
+   
+   background-color: aliceblue;
+   border-radius: 20px;
+}
+.inter-wrap-doingWork{
+    
+    padding: 30px;
+    
+
+}
+.inter-wrap-paragraphead{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: cursive;
+    width: 70%;
+    margin: 0 auto;
+    border-bottom:solid 3px pink ;
+}
+.apple-website{
+    
+    margin:10px  ;
+}
+.apple-website>iframe{
+    border: 3px solid black;
+    border-radius: 30px;
+    /* margin-top: 40px; */
+}
+.appleIframe{
+    margin-top: 45px;
+}
+
+.personal-website{
+    font-family: "Playwrite IT Moderna", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+.button-click> a >button{
+    background-color:#0d6efd;
+    padding: 15px;
+    color: white;
+    border: 2px solid #0d6efd;
+    font-size: 10px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.footer-wrap{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+ padding: 20px;
+}
+.footer-link >div >a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:blue;
+}
+.footer-link >div{
+    margin:20px;
+}
+.puppy-discription{
+    margin: 20px;
+    
+}
+.developed{
+    width: 60%;
+
+    text-align: center;
+    font-size: 30px;
+    margin:10px auto 0 ;
+    border-top: 3px solid white;
+    padding-top: 20px;
+    font-family:fantasy;
+}
+
+.paragrap-vedio{
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+.drumkit-container{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    margin:20px 5% ;
+}
+.drumkit-container>div>h2{
+    margin-bottom: 20px;
+}
+.days-container{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    margin:20px 5% ;
+}
+.days-container>div>h2{
+    margin-bottom: 20px;}
+
+@media(min-width:576px){
+
+    .inside-wrapwe-logophoto{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        
+    
+           
+    }
+    iframe{
+        height: 400px;
+    }
+
+    
+}
+@media(min-width:750px){
+    .hero-introduction{
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+    .vedio-discription{
+    max-width: 750px;
+    margin: 30px  auto;
+}
+    .intoduction-paragrap{
+        font-size: 40px;
+    }
+    .all-main{
+        flex-basis: 50%;
+    }
+    .wrap-doingWork{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        gap: 30px;
+    }
+    .inter-wrap-doingWork{
+        background-color: aliceblue;
+        border-radius: 30px;
+        flex-basis: 50%;
+    }
+        .games-container{
+        display: flex;
+        
+
+    }
+    .days-container{
+        margin-left: 0;
+    }
+    .drumkit-containe{
+        margin-right:0 ;
+    }
+    
+}

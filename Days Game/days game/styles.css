@@ -1,0 +1,78 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.guss{
+  text-align: center;
+  color: rgb(39, 6, 6);
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.click{
+  
+  text-align: center;
+}
+button{
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(73, 73, 230);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+button:hover{
+  background-color: rgb(238, 96, 44);
+}
+.contsiner{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+
+}
+.score{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+
+  font-weight: bold;
+  color: aqua;
+}
+body{
+  background-color: gray;
+}
+.player11{
+  color: aqua;
+  margin: 0 0 20px ;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.developer{
+
+  padding: 20px 0 20px 30px;
+  
+  font-size: 20px;
+  margin-top: 60px;
+}
+.developerontact{
+  margin: 0 0 10px 30px;
+}
+@media(max-width:550px){
+  img{
+    width: 130px;
+  }
+  .score{
+    font-size: 30px;
+    margin-top: 20px;
+    margin: 0 2% 0 2%;
+  }
+  .contsiner{
+    height: 40vh;
+    margin: 0 2% 0 2%;
+  }
+}
