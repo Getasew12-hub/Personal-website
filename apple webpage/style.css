@@ -1,0 +1,315 @@
+
+
+.row{
+    list-style: none;
+   
+   
+    
+}
+.cathrow{
+    font-weight: bold;
+    padding-top: 10px;
+
+
+}
+
+.allicon{
+    text-align: center;
+    
+}
+.list{
+    margin: 3px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    margin: 0;
+}
+
+header{
+    background-color: aliceblue;
+    margin: 0;
+    
+
+}
+.Hparagrap{
+    text-align: center;
+    background-color:azure;
+    padding: 20px;
+    
+}
+.iphone{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+   
+}
+.first{
+    background-image: url(./image/apple-iphone-13-2.jpg);
+    height: 200px;
+    background-size: cover;
+    background-size: 500px;
+    
+  
+}
+.second{
+    background-image: url(./image/apple_intelligence__gbh77cvflkia_xlarge.jpg );
+    background-size: 200px;
+  
+
+}
+.third{
+    background-image: url(./image/battery__2v7w6kmztvm2_xlarge.jpg);
+    background-size: 200px;
+}
+.forth{
+    background-image:url(./image/camera__exi2qfijti0y_xlarge.jpg) ;
+    background-size: 200px;
+}
+.fifth{
+    background-image: url(./image/environment__e3v3gj88dl6q_xlarge.jpg);
+    background-size: 200px;
+    color: black !important;
+
+}
+.all-contain{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+    gap:20px;
+    
+    
+}
+.ihoneP{
+    margin: 50px;
+    font-size: 30px;
+}
+.all{
+    height: 400px;
+    width: 200px ;
+    padding:10px;
+    color: aliceblue;
+    border-radius: 30px;
+    
+}
+.designed{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    
+}
+.explore{
+    display: flex;
+    justify-content: space-between;
+}
+.iphone16{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.ihonepro16{
+    background-color: aliceblue;
+    
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+}
+.buttontype{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.gridveiw{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto  ;
+    gap:20px;
+    padding: 20px;
+}
+.gridveiw>*{
+    padding: 10px;
+    text-align: center;
+}
+.gridveiwbottm{
+    background-color: aliceblue;
+}
+.imagecath{
+    background-image: url(./bec-brown-7RIm0GqvvkM-unsplash.jpg);
+    width: 100%;
+    height: 300px;
+    /* background-size: 500px; */
+    background-size: cover;
+    border-radius: 20px;
+    
+  padding-top: 20%;
+  padding-left: 5%;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+.endsection{
+    margin: 30px;
+    
+}
+.theEnd{
+    display: flex;
+    flex-direction: column;
+    
+    background-color:white;
+    gap: 40px;
+    border-radius: 20px;
+    
+}
+.theEnd>*{
+ background-color: aliceblue;
+ border-radius: 20px;
+ text-align: start;
+ padding: 20px;
+ 
+}
+.ihone-esecence{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+.endfooter{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px  auto;
+    gap: 20px;
+    
+    background-color: aliceblue;
+    margin:40px  ;
+    padding: 20px;
+}
+.endfooter1{
+    grid-column: span 2;
+    text-align: left;
+}
+.endfooter2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+gap:20px
+}
+@media(max-width:480px){
+    
+    .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto ;
+        gap:10px;
+    }
+        .iphone{
+            flex-direction: column;
+            
+            gap:20px;
+           
+        }
+        .explore{
+            flex-direction: column;
+        }
+        header{
+            width: 100%;
+        }
+        body>*{
+            width: 100%;
+        }
+    
+}
+@media(min-width:570px){
+    .all{
+        height: 700px;
+        width: 350px ;
+      background-size: cover;
+        border-radius: 40px;
+        padding: 30px;
+        
+    }
+    .all-contain{
+        display: flex;
+        
+        flex-wrap: wrap;
+        
+    
+    
+        gap:40px;
+        
+        
+    }
+    .ihoneP{
+        margin: 50px;
+        font-size: 50px;
+    }
+    .designed{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 40px;
+        background-color: aliceblue;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .iphone16{
+    display: flex;
+    gap:50px;
+    
+}
+
+.gridveiw{
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4,auto) ;
+
+}
+.imagecath{
+
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    font-size: 30px;
+    
+}
+.endsection{
+    margin: 4%;
+}
+.theEnd{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.ihone-esecence{
+    text-align:left;
+    margin-left: 5%;
+
+}
+.endfooter2{
+    display: flex;
+    text-align: left;
+    gap:40px;
+
+}
+}
+.getasew{
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
